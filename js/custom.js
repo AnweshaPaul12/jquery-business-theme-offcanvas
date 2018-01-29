@@ -1,4 +1,6 @@
 jQuery(document).ready(function($){
+	"use strict";
+    new WOW().init();
 	$('.slider-item').slick({
 		dots: true,
 		infinite: true,
